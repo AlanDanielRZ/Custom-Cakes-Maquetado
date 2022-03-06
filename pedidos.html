@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE-Edge">
+        <meta name="viewport" content="width-device-wisth, initial-scale=1.0">
+        <title>Hacer Pedido</title>
+        <link href="./css/estilo-pedido.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img src="./img/custom-cakes-logo.png" alt="logo pasteleria" width="200" height="200">
+            <h2>Pastelería Custom-Cakes</h2>
+            <h3>Crea tu propio pastel y haz tu pedido llenando el formulario</h3>
+        </header>
+        <section>
+            <nav>
+                <h1>Permitenos tomar tu pedido</h1>
+
+                <form action="./menu.html">
+                    <label for="Nombre">Nombre de quien recogerá el pedido</label><br>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" class="input-texto">
+                    <br><br>
+        
+                    <label for="Telefono">Número de teléfono</label><br>
+                    <input type="tel" name="Telefono" id="Telefono" placeholder="Télefono" maxlength="10" class="input-texto">
+                    <br><br>
+        
+                    <label for="e-mail">Correo electrónico</label><br>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Correo electrónico" class="input-texto">
+                    <br><br>
+        
+                    <hr>
+                    <p>¿De qué será tu pastel? (Selecciona dos tipos máximo. Precio por medio pastel)</p>
+                    <input type="checkbox" id="3leches" name="3leches" value="Pastel de Tres Leches">
+                    <label for="3leches">Pastel de Tres Leches .............. $ 90.00</label>
+                    <br>
+                    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                    <label for="chocolate">Pastel de Chocolate   ................. $ 110.00</label>
+                    <br>
+                    <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                    <label for="fresa">Pastel de Fresa  ......................... $ 110.00</label>
+                    <br>
+                    <input type="checkbox" id="capuchino" name="capuchino" value="capuchino">
+                    <label for="capuchino">Pastel de Capuchino ................ $ 120.00</label>
+                    <br>
+                    <input type="checkbox" id="nuez" name="nuez" value="nuez">
+                    <label for="nuez">Pastel de Nuez ......................... $ 140.00</label>
+                    <br>
+                    <input type="checkbox" id="pinon" name="pinon" value="pinon">
+                    <label for="pinon">Pastel de Piñón ........................ $ 160.00</label>
+                    <br>
+                    <input type="checkbox" id="envinado" name="envinado" value="envinado">
+                    <label for="envinado">Pastel Envinado ....................... $ 150.00</label>
+                    <br>
+                    <input type="checkbox" id="mchocolate" name="mchocolate" value="mchocolate">
+                    <label for="mchocolate">Mousse de Chocolate ............... $ 170.00</label>
+                    <br>
+                    <input type="checkbox" id="mfresa" name="mfresa" value="mfresa">
+                    <label for="mfresa">Mousse de Fresa ...................... $ 170.00</label>
+                    <br>
+                    <input type="checkbox" id="queso" name="queso" value="queso">
+                    <label for="queso">Pay de Queso ........................... $ 170.00</label>
+                    <br>
+
+                    <p>Si prefieres, puedes pedir una especialidad (Precio por pastel completo)</p>
+                    <input type="radio" id="milHojas" name="especial" value="Mil Hojas">
+                    <label for="milHojas">Pastel de Mil Hojas ................. $ 320.00</label><br>
+                    <input type="radio" id="imposible" name="especial" value="Imposible">
+                    <label for="imposible">Pastel Imposible ...................... $ 290.00</label><br>
+                    <input type="radio" id="oreo" name="especial" value="Oreo">
+                    <label for="oreo">Cheese Cake Oreo ................... $ 360.00</label><br>
+
+                    <hr>
+
+                    <p>Selecciona los toppings de tu pastel</p>
+                    <input type="checkbox" id="cream_basic" name="cream_basic" value="Crema Batida Orillas">
+                    <label for="cream_basic">Crema batida en las orillas .......... Gratis</label>
+                    <br>
+                    <input type="checkbox" id="cream" name="cream" value="Crema Batida">
+                    <label for="cream">Cubierta de crema batida ............. $ 10.00</label>
+                    <br>
+                    <input type="checkbox" id="mer_fresa" name="mre_fresa" value="Mermelada fresa">
+                    <label for="mer_fresa">Memelada de Fresa ...................... $ 20.00</label>
+                    <br>
+                    <input type="checkbox" id="mer_durazno" name="mer_durazno" value="Mermelada durazno">
+                    <label for="mer_durazno">Memelada de Durazno ................. $ 20.0000</label>
+                    <br>
+                    <input type="checkbox" id="mer_zarza" name="mer_zarza" value="Mermelada zarzamora">
+                    <label for="mer_zarza">Memelada de Zarzamora .............. $ 20.00</label>
+                    <br>
+                    <input type="checkbox" id="hershey" name="hershey" value="Hersheys">
+                    <label for="hershey">Chocolate Hersheys ...................... $ 50.00</label>
+                    <br>
+                    <input type="checkbox" id="irlandesa" name="irlandesa" value="Crema Irlandesa">
+                    <label for="irlandesa">Crema Irlandesa ............................ $ 60.00</label>
+                    <br>
+
+                    <input type="checkbox" id="fresas" name="fresas" value="Fresas">
+                    <label for="fresas">Fresas ............................................ $ 40.00</label>
+                    <br>
+                    <input type="checkbox" id="duraznos" name="duraznos" value="Duraznos">
+                    <label for="duraznos">Duraznos ....................................... $ 40.00</label>
+                    <br>
+                    <input type="checkbox" id="frutas" name="frutas" value="Frutas Mixtas">
+                    <label for="frutas">Frutas Mixtas ................................ $ 45.00</label>
+                    <br>
+                    <input type="checkbox" id="galletas" name="galletas" value="Galletas laterales">
+                    <label for="galletas">Galletas en los laterales ................. $ 30.00</label>
+                    <br>
+                    <input type="checkbox" id="oreos" name="oreos" value="Galletas Oreos">
+                    <label for="oreos">Galletas Oreo ................................. $ 40.00</label>
+                    <br>
+                    <input type="checkbox" id="tubitos" name="tubitos" value="Tubitos Chocolate">
+                    <label for="tubitos">Tubitos de Chocolate ..................... $ 10.00</label>
+                    <br>
+                    <input type="checkbox" id="trufas" name="trufas" value="Trufas">
+                    <label for="trufas">Trufas ............................................ $ 20.00</label>
+                    <br>
+                    <input type="checkbox" id="nueces" name="nueces" value="Nuez">
+                    <label for="nueces">Nuez ............................................... $ 40.00</label>
+                    <br>
+                    <input type="checkbox" id="conejos" name="conejos" value="Conejitos Chocolate">
+                    <label for="conejos">Conejitos de chocolate x4 .............. $ 45.00</label>
+                    <br>
+                    <br><br>
+                    <input type="reset" class="boton">
+                    <input type="submit" class="boton" onclick="alert('Se ha enviado la confirmación y tu número de pedido al correo que proporcionaste :)');">
+                    <a href="./menu.html"><input type="button" value="Volver al menú" class="boton"></a>
+                    <br><br>
+                </form>
+            </nav>
+
+            <article>
+                <img src="./img/pastel-combinado.jpg" alt="Pastel combinado" width="600" height="350"><br><br>
+                <img src="./img/cubierta.jpg" alt="Cubiertas" width="600" height="350"><br><br>
+                <img src="./img/oreo.jpg" alt="Cheese Cake Oreo" width="600" height="350">
+            </article>
+        </section>
+        <footer>
+            <h3>Contacto</h3>
+            <p>Av. Hermenegildo Galeana #53, Buenavista, Tultitlán, Estado de México</p>
+            <p>Tel. 55 2563 9871</p>
+            <h3>Horario de Atención</h3>
+            <p>Lunes a Viernes: 8:00 am - 08:00 pm</p>
+            <p>Sábado y Domingo: 10:00 am - 07:00 pm</p>
+        </footer>
+    </body>
+</html>
